@@ -1,0 +1,652 @@
+/* user-myjd-2015 myjd.coupon20150805.css Date:2016-10-20 16:25:42 */
+@charset "UTF-8";
+@font-face {
+	font-family:daogou-font;
+	src:url(//misc.360buyimg.com/mall/iconfont/daogou/css/fonts/daogou-font.eot?cfnq6a);
+	src:url(//misc.360buyimg.com/mall/iconfont/daogou/css/fonts/daogou-font.eot?cfnq6a#iefix) format("embedded-opentype"),url(//misc.360buyimg.com/mall/iconfont/daogou/css/fonts/daogou-font.ttf?cfnq6a) format("truetype"),url(//misc.360buyimg.com/mall/iconfont/daogou/css/fonts/daogou-font.woff?cfnq6a) format("woff"),url(//misc.360buyimg.com/mall/iconfont/daogou/css/fonts/daogou-font.svg?cfnq6a#daogou-font) format("svg");
+	font-weight:400;
+	font-style:normal
+}
+.dialog-addfriend .inner-tipbox .tip-btnbox .btn1,.dialog-btnbox .btn1,.dialog-tipbox1 .tip-btnbox .btn1,.dialog-tipbox2 .tip-btnbox .btn1 {
+	display:inline-block;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid #ddd;
+	color:#333;
+	background-color:#f7f7f7;
+	background-image:-moz-linear-gradient(top,#f7f7f7,#f2f2f2);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f7f7f7),color-stop(1,#f2f2f2));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#f2f2f2', GradientType='0');
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#f2f2f2');
+	background-image:linear-gradient(to bottom,#f7f7f7 0,#f2f2f2 100%)
+}
+.dialog-addfriend .inner-tipbox .tip-btnbox .btn1 .btnico,.dialog-addfriend .inner-tipbox .tip-btnbox .btn1 .btntxt,.dialog-btnbox .btn1 .btnico,.dialog-btnbox .btn1 .btntxt,.dialog-tipbox1 .tip-btnbox .btn1 .btnico,.dialog-tipbox1 .tip-btnbox .btn1 .btntxt,.dialog-tipbox2 .tip-btnbox .btn1 .btnico,.dialog-tipbox2 .tip-btnbox .btn1 .btntxt {
+	display:inline-block;
+	vertical-align:top
+}
+.dialog-addfriend .inner-tipbox .tip-btnbox .btn1:hover,.dialog-btnbox .btn1:hover,.dialog-tipbox1 .tip-btnbox .btn1:hover,.dialog-tipbox2 .tip-btnbox .btn1:hover {
+	text-decoration:none;
+	color:#333;
+	-webkit-box-shadow:0 1px 1px rgba(0,1,1,.08);
+	-moz-box-shadow:0 1px 1px rgba(0,1,1,.08);
+	box-shadow:0 1px 1px rgba(0,1,1,.08);
+	background-color:#f9f9f9;
+	background-image:-moz-linear-gradient(top,#f9f9f9,#f6f6f6);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f9f9f9),color-stop(1,#f6f6f6));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f6f6f6', GradientType='0');
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f6f6f6');
+	background-image:linear-gradient(to bottom,#f9f9f9 0,#f6f6f6 100%)
+}
+.dialog-addfriend .inner-tipbox .tip-btnbox .btn2,.dialog-btnbox .btn2,.dialog-share-coupon .share-info .btn,.dialog-tipbox1 .tip-btnbox .btn2,.dialog-tipbox2 .tip-btnbox .btn2 {
+	display:inline-block;
+	text-align:center;
+	cursor:pointer;
+	color:#fff;
+	background-color:#df3033;
+	background-image:-moz-linear-gradient(top,#df3033,#e74649);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#df3033),color-stop(1,#e74649));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#df3033', endColorstr='#e74649', GradientType='0');
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#df3033', endColorstr='#e74649');
+	background-image:linear-gradient(to bottom,#df3033 0,#e74649 100%)
+}
+.dialog-addfriend .inner-tipbox .tip-btnbox .btn2 .btnico,.dialog-addfriend .inner-tipbox .tip-btnbox .btn2 .btntxt,.dialog-btnbox .btn2 .btnico,.dialog-btnbox .btn2 .btntxt,.dialog-share-coupon .share-info .btn .btnico,.dialog-share-coupon .share-info .btn .btntxt,.dialog-tipbox1 .tip-btnbox .btn2 .btnico,.dialog-tipbox1 .tip-btnbox .btn2 .btntxt,.dialog-tipbox2 .tip-btnbox .btn2 .btnico,.dialog-tipbox2 .tip-btnbox .btn2 .btntxt {
+	display:inline-block;
+	vertical-align:top
+}
+.dialog-addfriend .inner-tipbox .tip-btnbox .btn2:hover,.dialog-btnbox .btn2:hover,.dialog-share-coupon .share-info .btn:hover,.dialog-tipbox1 .tip-btnbox .btn2:hover,.dialog-tipbox2 .tip-btnbox .btn2:hover {
+	text-decoration:none;
+	color:#fff;
+	background-color:#eb3c3f;
+	background-image:-moz-linear-gradient(top,#eb3c3f,#f05356);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#eb3c3f),color-stop(1,#f05356));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eb3c3f', endColorstr='#f05356', GradientType='0');
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eb3c3f', endColorstr='#f05356');
+	background-image:linear-gradient(to bottom,#eb3c3f 0,#f05356 100%)
+}
+@font-face {
+	font-family:daogou-font;
+	src:url(//misc.360buyimg.com/mall/iconfont/daogou/css/fonts/daogou-font.eot?cfnq6a);
+	src:url(//misc.360buyimg.com/mall/iconfont/daogou/css/fonts/daogou-font.eot?cfnq6a#iefix) format("embedded-opentype"),url(//misc.360buyimg.com/mall/iconfont/daogou/css/fonts/daogou-font.ttf?cfnq6a) format("truetype"),url(//misc.360buyimg.com/mall/iconfont/daogou/css/fonts/daogou-font.woff?cfnq6a) format("woff"),url(//misc.360buyimg.com/mall/iconfont/daogou/css/fonts/daogou-font.svg?cfnq6a#daogou-font) format("svg");
+	font-weight:400;
+	font-style:normal
+}
+.coupon-beans .beans-title i,.dialog-addfriend .inner-tipbox .tip-iconfont,.dialog-tipbox1 .tip-iconfont,.dialog-tipbox2 .tip-iconfont,.m-quicktip1 .tip-iconfont {
+	display:inline-block;
+	font-family:daogou-font!important;
+	speak:none;
+	font-style:normal;
+	font-weight:400;
+	font-variant:normal;
+	text-transform:none;
+	text-decoration:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-webkit-text-stroke-width:.2px;
+	-moz-osx-font-smoothing:grayscale
+}
+.dialog-share-coupon .qrcode-tit i {
+	display:inline-block;
+	background-image:url(//misc.360buyimg.com/user/myjd-2015/css/i/sprite-t-icon.png);
+	background-repeat:no-repeat
+}
+.m-quicktip1 .tip-inner {
+	border:1px solid #c4c4c4;
+	text-align:center;
+	background:#fff
+}
+.m-quicktip1 .tip-main {
+	display:inline-block;
+	line-height:20px;
+	padding:8px 18px
+}
+.m-quicktip1 .tip-main.tip-error .tip-iconfont {
+	color:#e22
+}
+.m-quicktip1 .tip-main.tip-ask .tip-iconfont,.m-quicktip1 .tip-main.tip-warn .tip-iconfont {
+	color:#f91
+}
+.m-quicktip1 .tip-iconfont {
+	float:left;
+	margin-top:2px;
+	margin-right:8px;
+	font-size:16px;
+	color:#9b1
+}
+.m-quicktip1 .tip-title {
+	display:inline-block;
+	height:20px;
+	vertical-align:top;
+	font:14px/20px "Microsoft YaHei";
+	color:#333
+}
+.m-quicktip1 .tip-error .tip-iconfont {
+	color:#e22
+}
+.dialog-addfriend .inner-tipbox,.dialog-tipbox1,.dialog-tipbox2 {
+	text-align:center
+}
+.dialog-addfriend .inner-tipbox .tip-main,.dialog-tipbox1 .tip-main,.dialog-tipbox2 .tip-main {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	padding-left:60px
+}
+.dialog-addfriend .inner-tipbox .tip-main.tip-error .tip-iconfont,.dialog-tipbox1 .tip-main.tip-error .tip-iconfont,.dialog-tipbox2 .tip-main.tip-error .tip-iconfont {
+	color:#e22
+}
+.dialog-addfriend .inner-tipbox .tip-main.tip-ask .tip-iconfont,.dialog-addfriend .inner-tipbox .tip-main.tip-warn .tip-iconfont,.dialog-tipbox1 .tip-main.tip-ask .tip-iconfont,.dialog-tipbox1 .tip-main.tip-warn .tip-iconfont,.dialog-tipbox2 .tip-main.tip-ask .tip-iconfont,.dialog-tipbox2 .tip-main.tip-warn .tip-iconfont {
+	color:#f91
+}
+.dialog-addfriend .inner-tipbox .tip-iconfont,.dialog-tipbox1 .tip-iconfont,.dialog-tipbox2 .tip-iconfont {
+	float:left;
+	margin-left:-60px;
+	*display:inline;
+	margin-right:12px;
+	font-size:48px;
+	color:#9b1
+}
+.dialog-addfriend .inner-tipbox .tip-info,.dialog-tipbox1 .tip-info,.dialog-tipbox2 .tip-info {
+	width:100%;
+	text-align:left
+}
+.dialog-addfriend .inner-tipbox .tip-title,.dialog-tipbox1 .tip-title,.dialog-tipbox2 .tip-title {
+	margin-top:-2px;
+	margin-bottom:2px;
+	font:16px/26px 'Microsoft YaHei';
+	color:#333
+}
+.dialog-addfriend .inner-tipbox .tip-title a,.dialog-tipbox1 .tip-title a,.dialog-tipbox2 .tip-title a {
+	color:#005ea7;
+	font-size:12px;
+	font-family:SimSun
+}
+.dialog-addfriend .inner-tipbox .tip-title-full,.dialog-tipbox1 .tip-title-full,.dialog-tipbox2 .tip-title-full {
+	font:16px/48px 'Microsoft YaHei';
+	color:#333
+}
+.dialog-addfriend .inner-tipbox .tip-hint,.dialog-tipbox1 .tip-hint,.dialog-tipbox2 .tip-hint {
+	line-height:16px;
+	color:#999
+}
+.dialog-addfriend .inner-tipbox .tip-btnbox,.dialog-tipbox1 .tip-btnbox,.dialog-tipbox2 .tip-btnbox {
+	padding-top:25px
+}
+.dialog-addfriend .inner-tipbox .tip-btnbox .btn1,.dialog-tipbox1 .tip-btnbox .btn1,.dialog-tipbox2 .tip-btnbox .btn1 {
+	width:88px;
+	height:34px;
+	line-height:34px;
+	padding:0;
+	font-size:14px;
+	border-radius:3px
+}
+.dialog-addfriend .inner-tipbox .tip-btnbox .btn1 .btntxt,.dialog-tipbox1 .tip-btnbox .btn1 .btntxt,.dialog-tipbox2 .tip-btnbox .btn1 .btntxt {
+	height:34px
+}
+.dialog-addfriend .inner-tipbox .tip-btnbox .btn2,.dialog-tipbox1 .tip-btnbox .btn2,.dialog-tipbox2 .tip-btnbox .btn2 {
+	width:90px;
+	height:36px;
+	line-height:36px;
+	padding:0;
+	font-size:14px;
+	font-weight:700;
+	border-radius:3px
+}
+.dialog-addfriend .inner-tipbox .tip-btnbox .btn2 .btntxt,.dialog-tipbox1 .tip-btnbox .btn2 .btntxt,.dialog-tipbox2 .tip-btnbox .btn2 .btntxt {
+	height:36px
+}
+.dialog-addfriend .inner-tipbox .tip-btnbox .btn-gutter,.dialog-tipbox1 .tip-btnbox .btn-gutter,.dialog-tipbox2 .tip-btnbox .btn-gutter {
+	margin-right:18px;
+	margin-left:2px
+}
+.dialog-btnbox .btn1 {
+	width:88px;
+	height:34px;
+	line-height:34px;
+	padding:0;
+	font-size:14px;
+	border-radius:3px
+}
+.dialog-btnbox .btn1 .btntxt {
+	height:34px
+}
+.dialog-btnbox .btn2 {
+	width:90px;
+	height:36px;
+	line-height:36px;
+	padding:0;
+	font-size:14px;
+	font-weight:700;
+	border-radius:3px
+}
+.dialog-btnbox .btn2 .btntxt {
+	height:36px
+}
+.coupon-rule {
+	line-height:20px;
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	color:#333
+}
+.coupon-rule ul {
+	display:inline-block;
+	display:block
+}
+.coupon-rule ul:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+* html .coupon-rule ul {
+	height:1%
+}
+*+html .coupon-rule ul {
+	min-height:1%
+}
+.coupon-rule li {
+	float:left;
+	width:24%;
+	text-align:center;
+	border-right:1px solid #f5f5f5
+}
+.coupon-rule .rule-icon {
+	display:block;
+	width:50px;
+	height:51px;
+	margin:20px auto 10px;
+	background:url(//misc.360buyimg.com/user/myjd-2015/css/i/coupon-rule.jpg) no-repeat;
+	overflow:hidden
+}
+.coupon-rule li.fore1 .rule-icon {
+	background-position:0 -61px
+}
+.coupon-rule li.fore1 a:hover {
+	color:#e02b2b
+}
+.coupon-rule li.fore2 .rule-icon {
+	background-position:0 -122px
+}
+.coupon-rule li.fore2 a:hover {
+	color:#0960b3
+}
+.coupon-rule li.fore3 .rule-icon {
+	background-position:0 0
+}
+.coupon-rule li.fore3 a:hover {
+	color:#03adb1
+}
+.coupon-rule li.fore4 {
+	border-right:none
+}
+.coupon-rule li.fore4 .rule-icon {
+	background-position:0 -183px
+}
+.coupon-rule li.fore4 a:hover {
+	color:#d89700
+}
+div.mod-main .mt .extra-l li {
+	padding:0 20px 0 0
+}
+div.mod-main .mt .extra-l li a {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	vertical-align:middle;
+	color:#333
+}
+div.mod-main .mt .extra-l li a.ftx-03 {
+	color:#999
+}
+div.mod-main .mt .extra-l li a:hover em {
+	color:#fff
+}
+div.mod-main .mt .extra-l li em {
+	position:relative;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	height:15px;
+	line-height:15px;
+	font-family:arial;
+	top:-5px;
+	padding:0 4px;
+	background:#e4393c;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+	color:#fff;
+	font-size:10px;
+	margin:0 0 0 2px;
+	_position:static
+}
+div.mod-main .mt .extra-l li .cutline {
+	float:left;
+	width:1px;
+	height:12px;
+	margin-top:4px;
+	margin-right:20px;
+	overflow:hidden;
+	background:#d2d2d2
+}
+div.mod-main .mt .extra-l li.fore1 {
+	position:relative;
+	padding-left:20px;
+	border-left:1px dotted #ddd
+}
+div.mod-main .mt .extra-l li .new {
+	position:absolute;
+	width:24px;
+	height:14px;
+	top:-10px;
+	right:-10px;
+	background:url(//misc.360buyimg.com/user/myjd-2015/css/i/new-icon.png) no-repeat;
+	overflow:hidden
+}
+div.coupon-thickbox {
+	height:128px;
+	width:360px;
+	padding:20px
+}
+div.coupon-thickbox .m-icon {
+	width:145px;
+	height:147px;
+	left:20px;
+	top:20px
+}
+div.coupon-thickbox .item-fore {
+	position:relative;
+	top:50%;
+	margin-left:155px;
+	font-size:14px;
+	font-family:"Microsoft YaHei"
+}
+div.coupon-thickbox .c-icon01 {
+	background:url(//misc.360buyimg.com/user/myjd-2015/css/i/c-joy01.png) no-repeat
+}
+div.coupon-thickbox .c-icon02 {
+	background:url(//misc.360buyimg.com/user/myjd-2015/css/i/c-joy02.png) no-repeat
+}
+div#coupon-thickbox {
+	border:5px solid #fa9897
+}
+#quan02 {
+	padding:10px 20px
+}
+div.mod-coupon .mt {
+	padding:10px 0 0
+}
+div.mod-coupon .mt .extra-r a {
+	font-size:14px;
+	font-family:"Microsoft YaHei"
+}
+div.mod-coupon .mt .extra-r em {
+	position:relative;
+	:@inlcude inline-block;
+	height:15px;
+	line-height:15px;
+	font-family:arial;
+	top:-5px;
+	padding:0 4px;
+	background:#e4393c;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+	color:#fff;
+	font-size:10px;
+	margin:0 0 0 5px
+}
+div.mod-coupon .coupon-icon {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	width:22px;
+	height:20px;
+	background:url(//misc.360buyimg.com/user/myjd-2015/css/i/c-mt-icon.png) no-repeat;
+	margin-right:5px;
+	vertical-align:middle
+}
+.coupon-empty-box {
+	min-height:600px;
+	text-align:center
+}
+.coupon-empty-box .e-icon {
+	display:block;
+	width:155px;
+	height:101px;
+	margin:70px auto 20px;
+	background:url(//misc.360buyimg.com/user/myjd-2015/css/i/quan-joy.png) no-repeat;
+	overflow:hidden
+}
+.coupon-empty-box .txt {
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	line-height:20px
+}
+.coupon-empty-box .btn-1 {
+	font-size:14px;
+	height:36px;
+	line-height:36px;
+	width:118px;
+	padding:0
+}
+div.dialog-skin1 .ui-dialog-close {
+	background:url(//misc.360buyimg.com/user/myjd-2015/css/i/close.png) no-repeat
+}
+div.dialog-mtip .ui-dialog-content {
+	padding:0
+}
+div.dialog-mtip .ui-dialog-close {
+	background:url(//misc.360buyimg.com/user/myjd-2015/css/i/close.png) no-repeat
+}
+.dialog-tipbox1 {
+	width:320px;
+	padding:48px 50px 40px
+}
+.dialog-tipbox2 {
+	width:350px;
+	padding:48px 25px 40px
+}
+div.dialog-quicktip .ui-dialog-content {
+	padding:0
+}
+.dialog-btnbox {
+	padding:30px 0;
+	text-align:center
+}
+.dialog-btnbox .gutter {
+	margin-right:20px
+}
+.coupon-beans {
+	width:290px;
+	padding-top:40px;
+	margin:0 auto
+}
+.coupon-beans .beans-info {
+	width:160px;
+	height:122px;
+	padding-left:94px;
+	padding-right:26px;
+	margin:0 auto 12px;
+	overflow:hidden;
+	background:url(//misc.360buyimg.com/user/myjd-2015/css/i/bg-coupon.png) no-repeat
+}
+.coupon-beans .beans-title {
+	width:100%;
+	height:20px;
+	padding-top:14px;
+	overflow:hidden
+}
+.coupon-beans .beans-title em {
+	display:inline-block;
+	height:20px;
+	line-height:20px;
+	vertical-align:top;
+	color:#333
+}
+.coupon-beans .beans-title i {
+	margin-top:1px;
+	margin-left:4px;
+	font-size:15px;
+	vertical-align:top;
+	color:#999
+}
+.coupon-beans .beans-num {
+	width:100%;
+	height:40px;
+	overflow:hidden;
+	font:34px/40px verdana;
+	color:#e4393c
+}
+.coupon-beans .hint {
+	width:100%;
+	height:16px;
+	line-height:16px;
+	margin-bottom:3px;
+	color:#999
+}
+.coupon-beans .extra-info {
+	width:100%;
+	text-align:center;
+	color:#999
+}
+.coupon-beans .extra-info a {
+	color:#005ea7
+}
+.u-tips {
+	line-height:18px;
+	padding-left:18px;
+	color:#999
+}
+.u-tips i {
+	float:left;
+	width:12px;
+	height:16px;
+	margin-top:1px;
+	margin-left:-18px;
+	_display:inline;
+	background:url(//misc.360buyimg.com/user/myjd-2015/css/i/sprite-tip3.png) no-repeat -50px -50px
+}
+.u-tips a {
+	color:#005ea7
+}
+.dialog-share-coupon {
+	width:400px;
+	padding-bottom:16px
+}
+.dialog-share-coupon .share-main {
+	width:398px;
+	height:204px;
+	padding:20px 0;
+	border:1px solid #eaeaea;
+	margin:0 auto 10px;
+	overflow:hidden
+}
+.dialog-share-coupon .share-qrcode {
+	float:left;
+	width:202px;
+	height:204px;
+	border-right:1px solid #eaeaea
+}
+.dialog-share-coupon .qrcode-tit {
+	padding-top:3px;
+	margin-bottom:14px;
+	text-align:center
+}
+.dialog-share-coupon .qrcode-tit i {
+	width:18px;
+	height:18px;
+	margin-right:4px;
+	vertical-align:top;
+	background-position:-30px -100px
+}
+.dialog-share-coupon .qrcode-tit em {
+	display:inline-block;
+	height:18px;
+	line-height:18px;
+	vertical-align:top;
+	color:#333
+}
+.dialog-share-coupon .qrcode-img {
+	display:block;
+	width:158px;
+	height:158px;
+	border:1px solid #b3b3b3;
+	margin:0 auto
+}
+.dialog-share-coupon .share-info {
+	float:left;
+	width:195px;
+	height:204px;
+	overflow:hidden
+}
+.dialog-share-coupon .share-info .tit {
+	height:18px;
+	line-height:18px;
+	padding-top:3px;
+	text-align:center
+}
+.dialog-share-coupon .share-info .link {
+	width:157px;
+	height:30px;
+	line-height:30px;
+	border:1px solid #ccc;
+	margin:60px auto 20px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	text-align:center;
+	background:#f8f8f8
+}
+.dialog-share-coupon .share-info .btn {
+	width:90px;
+	height:36px;
+	line-height:36px;
+	padding:0;
+	display:block;
+	margin:0 auto;
+	font-size:14px;
+	font-weight:700;
+	border-radius:3px;
+	border-radius:3px
+}
+.dialog-share-coupon .share-info .btn .btntxt {
+	height:36px
+}
+.dialog-addfriend {
+	width:400px;
+	padding:39px 0
+}
+.dialog-addfriend .inner-tipbox {
+	width:400px;
+	padding:0 0 14px
+}
+.dialog-addfriend .select-btns {
+	width:286px;
+	margin:0 auto
+}
+.dialog-addfriend .select-btns a {
+	display:block;
+	width:284px;
+	height:49px;
+	line-height:49px;
+	border:1px solid #eaeaea;
+	margin-bottom:10px;
+	text-align:center;
+	font-size:14px;
+	font-family:"Microsoft YaHei";
+	color:#333
+}
+.dialog-addfriend .select-btns a:hover {
+	border-color:#e4393c;
+	color:#e4393c
+}
+.dialog-addfriend .select-btns .arrow {
+	margin-left:8px;
+	font-family:SimSun
+}
+.dialog-addfriend .u-tips {
+	width:270px;
+	margin:0 auto;
+	padding-top:5px
+}

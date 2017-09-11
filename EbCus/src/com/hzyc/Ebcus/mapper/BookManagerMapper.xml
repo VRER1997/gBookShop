@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC 
+	"-//mybatis.org//Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+	<mapper namespace = "com.hzyc.Ebcus.mapper.BookManagerMapper">
+		<!-- 通过搜索信息模糊查找 -->
+		<select id="queryBookByName" parameterType="string" resultType="book">
+			select * from book where name like '%${value}%'
+		</select>
+		<!-- 通过给定条件进行排序 -->
+		<select id="queryBookOrderByName" parameterType="page" resultType="book">
+			select * from book where name like '%${message}%' order by ${conditions} desc LIMIT #{startPosition},#{perPageLine}
+		</select>
+		<!-- 通过ISBN编码查询书籍详细信息 -->
+		<select id="queryInfoByISBN" parameterType="string" resultType="book">
+			select * from book where ISBN = ${value}
+		</select>
+		
+		<!-- 分页功能   -->
+		<select id="queryBooksPage" parameterType="page" resultType="book">
+			SELECT * FROM book where name like '%${message}%' LIMIT #{startPosition},#{perPageLine}
+		</select>
+		
+		<select id="queryBooksCount" parameterType="page" resultType="page">
+			SELECT count(*) total FROM book where name like '%${message}%'
+		</select>
+		
+		<!-- 添加购物车 -->
+		<insert id="addBookToCar" parameterType="s_car" >
+			insert into shopping_car (userID,bookISBN,price,num,discount) values(#{userID},#{bookISBN},#{price},#{num},#{discount} )
+		</insert>
+		<!-- 查询购物车 -->
+		<select id="selectBooksByUserID" parameterType="int" resultType="s_car">
+			select * from shopping_car where userID = ${value}
+		</select>
+		<!-- 删除购物车的一件书 -->
+		<delete id="deleteBookFormCar" parameterType="userbook">
+			delete from shopping_car where userID = #{userID} and bookISBN = #{bookISBN}
+		</delete>
+		
+		
+		
+		<!-- 增加收货地址 -->
+		<insert id="addAddress" parameterType="address" >
+			insert into address(userID,name,province,city,area,details,phonenum,is_moren)
+						values(#{userID},#{name},#{province},#{city},#{area},#{details},#{phonenum},#{is_moren})
+		</insert>
+		<!-- 根据用户查找收货地址 -->
+		<select id="selectAddressByUserID" parameterType="int" resultType="address">
+			select * from address where userID = #{userID}
+		</select>
+		<!-- 根据收货地址id查找收货地址 -->
+		<select id="selectAddressByAddressID" parameterType="int" resultType="address">
+			select * from address where id = #{ID}
+		</select>
+		<!-- 删除收货地址 -->
+		<delete id="deleteAddress" parameterType="int">
+			delete from address where id = #{ID}
+		</delete>
+		<!-- 设为默认地址 -->
+		<update id="updateAddressAsOne" parameterType="int">
+			update address set is_moren=1 where id = #{value}
+		</update>
+		<!-- 取消为默认地址 -->
+		<update id="updateAddressAsZero" parameterType="int">
+			update address set is_moren=0 where id = #{value}
+		</update>	
+		
+		<!-- 添加订单   -->
+		<insert id="addBooksToOrder" parameterType="order">
+			insert into theorder (userID,addressID,payment,express,booksISBN,booksnum,remark,totalprice,orderstate,ordertime) 
+						values (#{userID},#{addressID},#{payment},#{express},#{booksISBN},#{booksnum},#{remark},#{totalprice},#{orderstate},#{ordertime})
+		</insert>
+		<!-- 获取所有订单 -->
+		<select id="getAllOrder" parameterType="user" resultType="order">
+			select * from theorder where userID = #{userID}
+		</select>
+		<!-- 查询订单 -->
+		<select id="selectOrderByid" parameterType="int" resultType="order">
+			select * from theorder where id = #{id}
+		</select>
+		<!-- 更新订单的状态 -->
+		<update id="updateOrderStutas" parameterType="order">
+			update theorder set orderstate = #{orderstate} where id=#{id}
+		</update>
+		<!-- 查询用户名是否存在  -->
+		<select id="selectUserByName" parameterType="string" resultType="user">
+			select * from user where username= #{username}
+		</select>
+		<!-- 注册用户 -->
+		<insert id="addUser" parameterType="user">
+			insert into user (username,password,phone) 
+						values(#{username},#{password},#{phone})
+		</insert>
+		<!-- 更新用户的基本信息 -->
+		<update id="updateUser" parameterType="user">
+			update user set sex=#{sex}, birthday=#{birthday}, realname=#{realname} where username=#{username}
+		</update>
+		
+		<!-- 查看信息列表 -->
+		<select id="selectMessageForm" parameterType="user" resultType="message">
+			select * from message where toname = #{username} ORDER BY send_time ASC
+		</select>
+		<!-- 添加通知信息 -->
+		<insert id="inserMessage" parameterType="message">
+			insert into message(fromname,toname,title,content,urlstring,send_time,is_read)
+								 values(#{fromname},#{toname},#{title},#{content},#{urlstring},#{send_time},#{is_read})
+		</insert>
+		<!-- 添加到降价通知列表 -->
+		<insert id="addBookToDownlist" parameterType="downlist">
+			insert into downAttention(userID,bookISBN,oldprice) values(#{userID},#{bookISBN},#{oldprice})
+		</insert>
+		<!-- 根据用户名查找降价列表 -->
+		<select id="selectDownListByUser" parameterType="int" resultType="downlist">
+			select * from downAttention where userID = #{value}
+		</select>
+		<!-- 调整价钱 -->
+		<update id="changePrice" parameterType="downlist">
+			update downAttention set oldprice=#{oldprice} where id=#{id}
+		</update>
+	</mapper>

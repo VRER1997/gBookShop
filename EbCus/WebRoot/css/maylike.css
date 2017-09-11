@@ -1,0 +1,111 @@
+/* jdf-1.0.0/ globalMaylike.css Date:2017-02-24 11:47:37 */
+.footmark .m {
+	padding:0 9px;
+	border:1px solid #ddd;
+	border-top:2px solid #999
+}
+.footmark .mt {
+	height:30px;
+	line-height:30px
+}
+.footmark .title {
+	font-size:14px;
+	width:50%;
+	float:left;
+	font-weight:400
+}
+.footmark .extra {
+	width:50%;
+	float:right;
+	text-align:right
+}
+.may-like .change {
+	display:inline-block
+}
+.may-like .change .ico,.may-like .change .txt {
+	display:inline-block;
+	vertical-align:middle;
+	*cursor:pointer
+}
+.may-like .change .ico {
+	width:16px;
+	height:16px;
+	margin-right:5px;
+	background:url(//misc.360buyimg.com/product/skin/2012/i/update.png) no-repeat;
+	-webkit-transition:all .5s ease-in 0s;
+	-moz-transition:all .5s ease-in 0s;
+	-ms-transition:all .5s ease-in 0s;
+	transition:all .5s ease-in 0s
+}
+.may-like .change:hover .ico {
+	-webkit-transform:rotate(260deg) scale(1.1);
+	-moz-transform:rotate(260deg) scale(1.1);
+	-ms-transform:rotate(260deg) scale(1.1);
+	transform:rotate(260deg) scale(1.1)
+}
+.may-like .mc {
+	height:246px;
+	overflow:hidden
+}
+.may-like-list {
+	padding-top:15px;
+	margin-right:-10px
+}
+.may-like-list li {
+	width:150px;
+	height:216px;
+	float:left;
+	margin:0 8px 0 0;
+	padding:0 18px 15px;
+	text-align:center
+}
+.may-like-list .p-img img {
+	width:130px;
+	height:130px
+}
+.may-like-list .p-name {
+	height:36px
+}
+.may-like-list .p-review {
+	line-height:20px
+}
+.may-like-list .p-review a {
+	color:#005ea7
+}
+.may-like-list .p-price {
+	line-height:20px;
+	color:#e3393c
+}
+.recent-view {
+	padding-bottom:10px
+}
+.recent-view .mc {
+	height:116px;
+	overflow:hidden
+}
+.recent-view-list {
+	margin-right:-36px;
+	padding-top:14px
+}
+.recent-view-list li {
+	width:86px;
+	float:left;
+	margin:0 2px 0 0;
+	padding-bottom:14px;
+	text-align:center
+}
+.recent-view-list .p-img img {
+	width:70px;
+	height:70px
+}
+.recent-view-list .p-price {
+	color:#e3393c;
+	padding-top:5px
+}
+.root61 .may-like-list li {
+	padding-left:20px
+}
+.root61 .recent-view-list li {
+	margin:0 2px 0 3px;
+	*display:inline
+}

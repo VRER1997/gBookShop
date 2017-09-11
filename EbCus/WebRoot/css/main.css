@@ -1,0 +1,370 @@
+body
+{
+    outline: none;
+}
+#nav
+{
+    height: 65px;
+}
+.nav-item ul li,.login-area ul li
+{
+    list-style: none;
+    float: left;
+    margin: 0 19px;
+}
+.nav-item ul li
+{
+    position: relative;
+    top: 20px;
+    left: 180px;
+}
+li a
+{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;    
+}
+.search-box
+{
+    position: absolute;
+    top: 30px;
+    left: 560px;
+}
+.search-box form 
+{
+    width: 450px;
+    line-height: 30px;
+    background: #fff;
+}
+.search_text
+{
+    line-height: 29px;
+    border: 0;
+    width: 400px;
+    float: left;
+    border: 2px solid #1f78e7;
+    font-size: 20pt;
+}
+.search_b
+{
+    border: 1px solid black;
+    line-height: 30px;
+    float: left;
+    width: 30px;
+    background-image: url(../pic/search-button.png);
+}
+.login-area
+{
+    position: absolute;
+    top: 22px;
+    left: 1100px;
+}
+.header
+{
+    border-bottom: 5px solid #1f78e7;
+}
+.headerfor
+{
+    height: 45px;
+    margin-left: 154px;
+}
+.headerff
+{
+    width: 224px;
+    background: #1f78e7;
+}
+.headerfor .headerff span
+{
+    line-height: 45px;
+    font-size: 15pt;
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-left: 75px;
+}
+.g-banner .menuwrap
+{
+    position: relative;
+    top: 0px;
+    left: 154px;
+    width: 1200px;
+    background-image: url(../pic/banner_1.PNG);
+    height: 460px;
+}
+.menuitems
+{
+    position: absolute;
+    float: left;
+    list-style: none;
+}
+.menuitems ul li a
+{
+    color:aliceblue;
+}
+body
+{
+    font-size: 9px;
+}
+.topmenu
+{
+    display: block;
+    width: 224px;
+    margin: 0;
+    padding: 0;
+}
+.topmenu li
+{
+    height: 38.3px;
+    line-height: 30px;
+    font-size: 11pt;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 8px;
+    z-index: 3;
+    background-image: url(http://img.mukewang.com/5411027300014f0200220030.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.topmenu li a
+{
+    text-decoration: none;
+    color: #313131;
+}
+.topmenu li a:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #e4393c;
+}
+.topmenu .lihover
+{
+    border: 1px solid #DDD;
+    border-right: 0;
+    box-shadow: 0 0 8px #DDD;
+    -webkit-box-shadow: 0 0 8px #DDD;
+    -moz-box-shadow:0 0 8px #DDD;
+    background-image: none;
+}
+.submenu
+{
+    display: none;
+    width: 600px;
+    left: 220px;
+    position : absolute;
+    top: 0px;
+    border: 1px solid #DDD;
+    z-index: 4;
+    background: #fff;
+    box-shadow: 0 0 8px #DDD;
+    -webkit-box-shadow: 0 0 8px #DDD;
+    -moz-box-shadow:0 0 8px #DDD;
+}
+.leftdiv
+{
+    background: #fff;
+    width: 590px;
+    margin: 5px;
+    float:left;
+}
+.leftdiv dl dt a
+{
+    font-size: 10pt;
+    color: #1f78e7;
+    font-weight: bold;
+    display: block;
+    padding-right: 8px;
+    margin-top: 5px;
+}
+.leftdiv dl dd a {
+    font-size: 9pt;
+    color: black;
+    display: block;
+    float: left;
+    border-left: 1px solid #CCC;
+    padding: 8px;
+    height: 6px;
+    line-height: 6px;
+    margin: 4px 0;
+}
+.leftdiv dl dd
+{
+    display: block;
+    overflow: hidden;
+}
+.leftdiv dl
+{
+    display: block;
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 6px;
+    overflow: hidden;
+}
+.leftdiv dl dt
+{
+    display: block;
+    float: left;
+    width: 80px;
+    text-align: right;
+    line-height: 22px;
+    height: 22px;
+}
+.topmenu .lihover .submenu
+{
+    display: block;
+}
+.topmenu .lihover span
+{
+    background: #fff;
+    z-index: 20;
+    float: right;
+    w54.5th: 20px;
+    height: 30px;
+    position: relative;
+}
+.contentwrap
+{
+    position: relative;
+    top: 0;
+    left: 154.5px;
+    width: 1200px;
+    height: 260px;
+}
+.recomend
+{ 
+    padding-top: 40px;
+}
+.recomendnth-child(2) a
+{
+    float: right;
+    text-decoration: none;
+}
+.recomend span
+{
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0 10px;
+}
+.more a
+{
+    float: right;
+    text-decoration: none;
+}
+.more
+{
+    padding-right: 10px;
+}
+.book-wrapper
+{
+    width: 226px;
+    height: 180px;
+    margin-top: 14.5px;
+    margin-right: 14px;
+    padding: 0;
+    background-repeat: no-repeat;
+    box-shadow:2px 2px 3px #aaaaaa;
+    float: left;
+}
+.book-wrapper:hover
+{
+    box-shadow:4px 4px 10px #aaaaaa;
+}
+.book-wrapper .book-intro:hover
+{
+    position: absolute;
+    top: 121px;
+    height: 105px;
+}
+.book-wrapper .book-intro
+{
+    box-sizing: border-box;
+    position: absolute;
+    padding: 0 18px;
+    transition: top .5s;
+    top: 141px;
+    height: 85px;
+    width: 18.8%;
+    background-image: url(../pic/normaljb.png);
+}
+.book-img
+{
+    margin-left: 50px;
+}
+.book-intro h3
+{
+    font-size: 14px;
+    overflow: hidden;
+}
+.book-intro p
+{
+    font-size: 12px;
+    overflow: hidden;
+}
+.book-buttom
+{
+    position: relative;
+    top: 15px;
+    width: 100%;
+    height: 37px;
+}
+.book-buttom span
+{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 41px;
+    float: right;
+    margin-right: 10px;
+}
+.foot
+{
+    height: 200px;
+}
+.msg{
+    width: 220px;
+    height: 120px;
+    z-index: 100;
+    background-color: #fbfbfb;
+    position: absolute;
+    top: 65px;
+    left: 1294px;
+    box-shadow: 2px 2px 2px 2px #a7a5a5;
+}
+.msg span {
+    font-size: 12pt;
+    letter-spacing: 1px;
+}
+.msg a{
+    font-size: 12pt;
+    letter-spacing: 1px;
+}
+.person{
+    width: 83px;
+    height: 160px;
+    z-index: 100;
+    background-color: #fbfbfb;
+    position: absolute;
+    top: 20px;
+    left: 1418px;
+    box-shadow: 2px 2px 2px 2px #a7a5a5;
+}
+.person li{
+    list-style: none;
+    margin-left: 5px;
+    margin-top: 22px;
+}
+.person li a {
+    list-style: none;
+    font-size: 12pt;
+}
+.person_first  {
+    position: relative;
+    top: 12px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid gray;
+}
+.person_first a{
+    text-decoration: none;
+    font-size: 12pt;
+	font-weight: bold;
+	margin-left: 5px;
+}

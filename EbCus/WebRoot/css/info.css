@@ -1,0 +1,436 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+a
+{
+    text-decoration: none;
+}
+.fr
+{
+    float: right;
+}
+body {
+    outline: none;
+}
+
+#nav
+{
+    height: 65px;
+}
+
+.nav-item ul li,
+.login-area ul li {
+    list-style: none;
+    float: left;
+    margin: 0 19px;
+}
+
+.nav-item ul li {
+    position: relative;
+    top: 20px;
+    left: 180px;
+}
+
+li a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-box {
+    position: absolute;
+    top: 30px;
+    left: 560px;    
+}
+
+.search-box form 
+{
+    width: 450px;
+    line-height: 30px;
+    background: #fff;
+}
+.search_text
+{
+    line-height: 29px;
+    border: 0;
+    width: 400px;
+    float: left;
+    border: 2px solid #1f78e7;
+    font-size: 20pt;
+}
+.search_b {
+    border: 1px solid black;
+    line-height: 30px;
+    float: left;
+    width: 30px;
+    background-image: url(../pic/search-button.png);
+}
+
+.login-area {
+    position: absolute;
+    top: 22px;
+    left: 1100px;
+}
+.header
+{
+    border-bottom: 5px solid #1f78e7;
+}
+.headerfor
+{
+    height: 45px;
+    margin-left: 225px;    
+}
+.headerff
+{
+    width: 224px;
+    background: #1f78e7;
+}
+.headerfor .headerff span
+{
+    line-height: 45px;
+    font-size: 15pt;
+    text-align: center;
+    padding-left: 91px;
+}
+.headerfor .headerff span a
+{
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-weight: bold;
+}    
+.root-nav {
+    background: #1f78e7;
+    text-align: center;
+}
+
+.w {
+    width: 1080px;
+    margin-left: 225px;
+}
+
+.root-nav .w {
+    height: 45px;
+    background: #1f78e7;
+    line-height: 45px;
+}
+
+.fl {
+    float: left;
+}
+
+.w .fl span a {
+    text-decoration: none;
+    color: black;
+}
+
+.b-box {
+    height: 550px;
+}
+
+.b-box .w {
+    height: 550px;
+}
+
+.preview {
+    width: 450px;
+    height: 550px;
+    float: left;
+}
+.book-info
+{
+    height: 550px;
+    box-shadow: 4px 4px 1px #99999e;
+}
+.spec-list li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
+
+.spec-list li:hover {
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+}
+
+.b-item {
+    height: 550px;
+    float: left;
+}
+
+.name h3 {
+    line-height: 16px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+
+.name h4 {
+    line-height: 16px;
+    margin-top: 7px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+
+.name h5 {
+    line-height: 16px;
+    padding-top: 0px;
+    margin-top: 8px;
+}
+
+.price {
+    width: 600px;
+}
+
+.place {
+    height: 20px;
+    padding: 0px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.city span {
+    font-size: 20px;
+}
+
+.city select {
+    margin-left: 5px;
+}
+
+.amount {
+    height: 30px;
+    width: 160px;
+    padding: 0px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.amount span {
+    margin: 7.5px;
+    font-size: 20px;
+}
+
+.amount .tt input {
+    width: 30px;
+    height: 25px;
+    margin-top: 6px;
+}
+.amount .add, .amount .sub
+{
+    height: 18px;
+    width: 15px;
+    margin-top: 6px;
+}
+.amount .add a {
+    display: block;
+    border: 1px solid black;
+}
+
+.amount .sub a {
+    display: block;
+    border: 1px solid black;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.right {
+    box-shadow: 4px 4px 4px #99999e;
+}
+
+.hd {
+    height: 40px;
+    text-align: center;
+}
+.hd ul 
+{
+    height: 40px;
+}
+.hd ul li {
+    line-height: 40px;
+    float: left;
+    list-style: none;
+    padding: 0 205px;
+    border-right: 1px solid white;
+}
+.hd ul .product-detali:hover, .hd ul .comment:hover
+{
+    background: #1f78e7;
+    border-radius: 10px;
+}
+.p-parameter {
+    height: 150px;
+}
+
+.p-parameter ul li {
+    line-height: 15px;
+    list-style: none;
+    float: left;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.prod {
+    margin-top: 35px;
+}
+
+.prod .w {
+    background: white;
+}
+
+.item-mt 
+{
+    height: 25px;
+    border-bottom: 3px solid #e4393c;
+}
+
+.item-mt h3
+{
+    line-height: 28px;
+    width: 99px;
+    height: 25px;
+    overflow: hidden;
+    color: #FFF;
+    padding-left: 20px;
+    background: url(../pic/item.sprite.png) no-repeat 0 -13px;
+}
+.product
+{
+    padding: 0 40px;
+}
+.more
+{
+    display: hidden;
+}
+#comment 
+{
+    
+    padding: 0 40px;
+}
+.mc
+{
+   height: 200px;
+}
+#comment .rate strong {
+    font: 400 46px/30px arial;
+    color: #e4393c;
+}
+#comment .rate
+{
+    margin-top: 50px;
+    float: left;
+}
+#comment .rate
+{
+    font-size: 15pt;
+    padding: 0 100px 100px 50px;
+}
+#comment .percent
+{
+    float: left;
+    margin-top: 20px;
+    width: 186px;
+}
+#comment .percent dd div {
+    overflow: hidden;
+    height: 10px;
+    background-color: #e4393c;
+}
+#comment .percent dt
+{
+    float: left;
+    padding-right: 10px;
+}
+#comments-list, #comments-list .com-table-main
+{
+    padding: 0 40px;
+}
+.com-item-main
+{
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+}
+.com-item-main .column1
+{
+    float: left;
+    width: 130px;
+}
+.com-item-main .column2
+{
+    float: left;
+    width: 610px;
+    padding-left: 20px;
+}
+.com-item-main .column3
+{
+    float: left;
+    width: 150px;
+}
+.com-item-main .column1 .grade-star {
+    text-align: center;
+}
+.user-item img
+{
+    padding-left: 15px;
+}
+.J-p-show-img ul li
+{
+    float: left;
+    list-style: none;
+}
+#service-2014 .slogen {
+    position: relative;
+    height: 54px;
+    padding: 20px 0;
+    background: #F5F5F5;
+    text-align: center;
+}
+#service-2014 .slogen .fore1 {
+    margin-left: -505px;
+}
+#service-2014 .slogen .item {
+    width: 302px;
+}
+#service-2014 .slogen .item {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    width: 245px;
+    height: 54px;
+    text-align: left;
+    vertical-align: middle;
+    font: 400 18px/50px "microsoft yahei";
+}
+#service-2014 .slogen .fore2 {
+    margin-left: -237px;
+}
+.#service-2014 .slogen .item {
+    width: 302px;
+}
+#service-2014 .slogen .fore3 {
+    margin-left: 43px;
+}
+#service-2014 .slogen .item {
+    width: 302px;
+}
+#service-2014 .slogen .fore4 {
+    margin-left: 324px;
+}
+ #service-2014 .slogen .item {
+    width: 302px;
+}
+#service-2014 .slogen .item b {
+    padding: 0 10px;
+    font-size: 24px;
+    color: #C81623;
+}
+.copy{
+    padding-top: 100px;
+    height: 100px;
+    background: #F5F5F5;
+    text-align: center;
+}

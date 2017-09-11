@@ -1,0 +1,53 @@
+#service-2014 .slogen {
+    position: relative;
+    height: 54px;
+    padding: 20px 0;
+    background: #F5F5F5;
+    text-align: center;
+}
+#service-2014 .slogen .fore1 {
+    margin-left: -505px;
+}
+#service-2014 .slogen .item {
+    width: 302px;
+}
+#service-2014 .slogen .item {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    width: 245px;
+    height: 54px;
+    text-align: left;
+    vertical-align: middle;
+    font: 400 18px/50px "microsoft yahei";
+}
+#service-2014 .slogen .fore2 {
+    margin-left: -237px;
+}
+.#service-2014 .slogen .item {
+    width: 302px;
+}
+#service-2014 .slogen .fore3 {
+    margin-left: 43px;
+}
+#service-2014 .slogen .item {
+    width: 302px;
+}
+#service-2014 .slogen .fore4 {
+    margin-left: 324px;
+}
+ #service-2014 .slogen .item {
+    width: 302px;
+}
+#service-2014 .slogen .item b {
+    padding: 0 10px;
+    font-size: 24px;
+    color: #C81623;
+}
+.copy{
+    padding-top: 100px;
+    height: 100px;
+    background: #F5F5F5;
+    text-align: center;
+}

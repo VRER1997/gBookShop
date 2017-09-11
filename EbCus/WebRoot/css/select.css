@@ -1,0 +1,276 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+a
+{
+    text-decoration: none;
+}
+.fr
+{
+    float: right;
+}
+body {
+    outline: none;
+}
+
+#nav
+{
+    height: 65px;
+}
+
+.nav-item ul li,
+.login-area ul li {
+    list-style: none;
+    float: left;
+    margin: 0 19px;
+}
+
+.nav-item ul li {
+    position: relative;
+    top: 20px;
+    left: 180px;
+}
+
+li a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-box {
+    position: absolute;
+    top: 30px;
+    left: 560px;    
+}
+
+.search-box form 
+{
+    width: 450px;
+    line-height: 30px;
+    background: #fff;
+}
+.search_text
+{
+    line-height: 29px;
+    border: 0;
+    width: 400px;
+    float: left;
+    border: 2px solid #1f78e7;
+    font-size: 20pt;
+}
+.search_b {
+    border: 1px solid black;
+    line-height: 30px;
+    float: left;
+    width: 30px;
+    background-image: url(../pic/search-button.png);
+}
+
+.login-area {
+    position: absolute;
+    top: 22px;
+    left: 1100px;
+}
+
+.root-nav {
+    text-align: center;
+    border-bottom: 2px solid #1f78e7;
+}
+.header
+{
+    border-bottom: 5px solid #1f78e7;
+}
+.headerfor
+{
+    height: 45px;
+    margin-left: 225px;    
+}
+.headerff
+{
+    width: 224px;
+    background: #1f78e7;
+}
+.headerfor .headerff span
+{
+    line-height: 45px;
+    font-size: 15pt;
+    text-align: center;
+    padding-left: 91px;
+}
+.headerfor .headerff span a
+{
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.w {
+    width: 1080px;
+    margin-left: 225px;
+}
+
+.root-nav .w {
+    height: 45px;
+    line-height: 45px;
+}
+
+.fl {
+    float: left;
+}
+
+.w .fl span a {
+    text-decoration: none;
+    color: black;
+}
+
+.container .selector .selectorPrice .sl-wrap {
+    position: relative;
+    top: 10px;
+}
+
+.valueList li {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+}
+
+.sl-key {
+    position: absolute;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.sl-value {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+.sl-value .valueList li {
+    margin: 0 10px;
+    color: antiquewhite;
+    font-weight: 100;
+}
+
+.sl-price {
+    margin-top: 10px;
+    line-height: 34px;
+}
+
+.sl-price input {
+    width: 50px;
+    margin: 0 5px;
+}
+
+.sl-price a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 14px;
+    height: 14px;
+    border-radius: 2px;
+    background: #F7F7F7;
+    text-align: center;
+}
+.sl-wrap 
+{
+    
+}
+.selector
+{
+    height: 50px;
+}
+.filter
+{
+    height: 35px;
+    background: #F1F1F1;
+}
+.sort a
+{
+    line-height: 35px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
+.f-pager, .f-sum
+{
+    margin-top: 7px;
+}
+.f-sum
+{
+    margin-right: 5px;
+}
+.fp-text b
+{
+    color: crimson;
+}
+.f-pager a
+{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+.book-wrapper
+{
+    width: 256px;
+    height: 269px;
+    margin-top: 28.5px;
+    margin-right: 14px;
+    padding: 0;
+    background-repeat: no-repeat;
+    box-shadow:2px 2px 3px #aaaaaa;
+    float: left;
+}
+.book-wrapper:hover
+{
+    box-shadow:4px 4px 10px #aaaaaa;
+}
+.book-wrapper .book-intro:hover
+{
+    position: relative;
+    top: -96px;
+    height: 108px;
+}
+.book-wrapper .book-intro
+{
+    box-sizing: border-box;
+    position: relative;
+    padding: 5px 27px;
+    transition: top .5s;
+    top: -90px;
+    height: 107px;
+    width: 98.8%;
+    background-image: url(../pic/normaljb.png);
+}
+.book-img
+{
+    margin-top: 15px;
+    margin-left: 34px;
+}
+.book-intro h3
+{
+    font-size: 14px;
+    overflow: hidden;
+}
+.book-intro p
+{
+    font-size: 12px;
+    overflow: hidden;
+}
+.book-buttom
+{
+    position: relative;
+    top: -110px;;
+    width: 100%;
+    height: 37px;
+}
+.book-buttom span
+{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 41px;
+    float: right;
+    margin-right: 10px;
+}
