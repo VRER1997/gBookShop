@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC 
+	"-//mybatis.org//Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+	<mapper namespace="com.hzyc.ebadmin.mapper.BooksMapper">
+	
+		<delete id="delBooks" parameterType="string">
+			delete from book where ISBN = #{value}
+		</delete>
+		<select id="showBooks" resultType="book">
+			select * from book
+		</select>
+		<insert id="addBooks" parameterType="book">
+			<!-- insert into book(ISBN, name, imagepath) values(#{ISBN}, #{name}, #{imagepath}) -->
+			
+			insert into book values(#{ISBN},#{name},#{price},#{type},#{keywords},#{pulichouse},#{brands},#{packages},#{format},#{publictime},#{paper},#{pagenum},#{lang},#{imagepath},#{title},#{shortauth},#{shortcontent},#{num})
+		 
+		</insert>
+		<select id="showBooksByISBN" parameterType="string" resultType="book">
+			select * from book where ISBN = #{value}
+		</select>
+		
+		<!-- UPDATE book SET NAME = 'Java coming' WHERE ISBN = '121677845123' -->
+		<update id="updateBookByISBN" parameterType="book">
+			update book set	name = #{name}, price=#{price}, type = #{type}, keywords=#{keywords},
+					pulichouse = #{pulichouse}, packages=#{packages},format=#{format},publictime=#{publictime},
+					pagenum = #{pagenum}, lang=#{lang},title=#{title},shortauth=#{shortauth},
+					shortcontent = #{shortcontent}, num=#{num}	where ISBN = #{ISBN}
+		</update>
+		<!-- 分页功能   -->
+		<select id="queryBooksPage" parameterType="page" resultType="book">
+			SELECT * FROM book LIMIT #{startPosition},#{perPageLine}
+		</select>
+		
+		<select id="queryBooksCount" resultType="page">
+			SELECT count(*) total FROM book 
+		</select>
+		
+	</mapper>
